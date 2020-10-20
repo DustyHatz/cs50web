@@ -1,0 +1,94 @@
+div.form-container {
+    max-width: 1140px;
+    min-width: 200px;
+    width: 96%;
+    margin: 40px 2% 0 45px;
+}
+
+div.entire-form {
+    width: 100%;
+    clear: both;
+}
+
+div.entire-form div.input-label-container {
+    float: left;
+    display: inline-block;
+    min-width: 167px;
+    width: 16%;
+    height: 42px;
+    color: #222;
+    font-size: 13px;
+    line-height: 16px;
+    vertical-align: middle;
+}
+
+div.input-label-text {
+    height: 30px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+div.entire-form div.input-field-container {
+    float: left;
+    display: inline-block;
+    min-width: 167px;
+    min-height: 41px;
+    vertical-align: middle;
+    width: 50%;
+}
+
+div.input-field {
+    padding-right: 16px;
+}
+
+div.entire-form div.button-container {
+    float: left;
+    display: inline-block;
+    min-width: 167px;
+    min-height: 41px;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.rounded {
+    border-radius: 24px;
+    max-width: 584px;
+    height: 44px;
+    display: block;
+    margin: auto;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    width: 272px;
+    height: 92px;
+}
+
+.btns {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.btns li {
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-btns li {
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.custom-btn {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
