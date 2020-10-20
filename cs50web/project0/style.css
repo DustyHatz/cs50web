@@ -67,6 +67,14 @@ div.entire-form div.button-container {
     height: 92px;
 }
 
+.images {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    width: 272px;
+    height: 100px;
+}
 .btns {
     list-style-type: none;
     text-align: center;
