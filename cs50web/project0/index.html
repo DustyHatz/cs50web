@@ -2,12 +2,26 @@
 <html lang="en">
     <head>
         <title>Search</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <nav></nav>
-        <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
+        <nav class="navbar navbar-white">
+            <div class="container-fluid">
+              <div class="navbar-header navbar-right">
+                <a class="navbar-brand" href="adv_search.html" style="margin-right: 25px;">Advanced Search</a>
+                <a class="navbar-brand" href="image_search.html">Image Search</a>
+              </div>
+            </div>
+          </nav>
+        <img class="logo" alt="Google" height="92" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" width="272" data-atf="1">
+        <form action="https://google.com/search" method="GET">
+            <input class="form-control rounded" type="text" name="q" placeholder="Search...">
+            <input value="AINFCbYAAAAAX45CtNQYqjjYcqhNN32KkeoBiamUlnNN" disabled="true" name="iflsig" type="hidden">
+            <ul class="btns">
+                <li><input class="btn btn-default btn-lg active custom-btn" type="submit" name="btnK" value="Google Search" aria-label="Google Search"></li>
+                <li><input class="btn btn-default btn-lg active custom-btn" type="submit" name="btnI" value="I'm Feeling Lucky" aria-label="I'm Feeling Lucky"></li>
+            </ul>
         </form>
     </body>
 </html>
