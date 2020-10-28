@@ -75,6 +75,7 @@ div.entire-form div.button-container {
     width: 272px;
     height: 100px;
 }
+
 .btns {
     list-style-type: none;
     text-align: center;
@@ -99,4 +100,47 @@ div.entire-form div.button-container {
 .custom-btn {
     font-family: Arial, sans-serif;
     font-size: 14px;
+}
+
+.adv {
+    margin-left: 25px;
+    color: #d93025;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    font-weight: lighter;
+}
+
+.border {
+    border-bottom: solid rgb(210, 210, 210) thin;
+}
+
+.inputs {
+    max-width: 554px;
+}
+
+.cust-form-group {
+    width: 1140px;
+    height: 210px;
+    padding-left: 60px;
+    padding-top: 25px;
+}
+
+.form-group .row label {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    font-weight: lighter;
+    text-align: left;
+}
+
+.form-group .row .cust-label {
+    font-size: 16px;
+}
+
+#adv {
+    float: right;
+    margin-right: 32.1%;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: white;
+    font-weight: bold;
 }
